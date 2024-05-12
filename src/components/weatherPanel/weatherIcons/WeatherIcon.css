@@ -1,0 +1,38 @@
+.weather-icon {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .weather-icon-sun {
+    background-image: url('./sunWeather.png');
+  }
+  
+  .weather-icon-rain {
+    background-image: url('./rainWeather.png');
+  }
+  
+  .weather-icon-cloud {
+    background-image: url('./cloudWeather.png');
+  }
+  
+  .weather-icon-snow {
+    background-image: url('./snowWeather.png');
+  }
+
+  .weather-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .weather-info > div {
+    margin-left: 10px; /* Adjust as needed */
+  }
+
+  .weather-info img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  
